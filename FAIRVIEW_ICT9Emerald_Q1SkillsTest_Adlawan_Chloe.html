@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+
+<style>
+
+body{
+    background-image: url(https://i.pinimg.com/1200x/af/2d/59/af2d594c193dc4cdd90a31054e01da96.jpg);
+    background-attachment: fixed;
+}
+
+.cont{
+    background-color: rgb(64, 63, 103);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(49, 11, 75);
+    border-radius: 20px;
+    width: 650px;
+    font-family: monospace;
+    line-height: 15px;
+    color: aliceblue;
+    padding: 25px;
+    display: block;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 35px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#head{
+    text-align: center;
+}
+
+#help{
+    background-color: aliceblue;
+    color: rgb(49, 11, 75);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input{
+    height: 20px;
+    margin: 10px;
+    font-family: monospace;
+}
+
+select{
+    margin: 10px;
+}
+
+button{
+    size: 75px;
+    background-color: rgb(230, 129, 22);
+    color: aliceblue;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+footer{
+    background-color: rgb(44, 42, 91);
+    border: solid;
+    border-color: rgb(49, 11, 75);
+    border-radius: 20px;
+    border-width: 2px;
+    color: aliceblue;
+    width: 655px;
+    margin-top: 20px;
+    margin-left: 252px;
+    margin-right: 252px;
+    padding: 10px;
+    font-family: monospace;
+    text-align: center;
+        }
+
+</style>
+
+</head>
+
+<body>
+    <div class="cont">
+        <div id="head">
+        <img src="obmclogo.webp" alt="logo">
+        <h1>OBMC Robotics Club</h1>
+        <p>Calling all aspiring engineers, coders, and designers, the OBMC Robotics Club wants you! For the first time, OBMC is now oppening a club wherein technology enthusiasts can start on the projects of their dreams. This club offers an extended course in the ICT subject for those who want to expand their techonological knowledge.</p>
+        </div>
+
+        <h3>Our Club Activities</h3>
+        <ol id="help">
+
+            <li>
+                Complex Coding
+            </li>
+
+            <li>
+                Robotic Programming
+            </li>
+
+            <li>
+                Graphic Designing
+            </li>
+
+        </ol>
+
+         <h3>Need help? Refer to these guides!</h3>
+            <ol id="help">
+
+                <li>
+                <a href="https://www.arduino.cc/education/an-introduction-to-coding/" target="_blank">Unleashing The Power Of Programming: An Introduction To Coding</a>
+                </li>
+
+                <li>
+                <a href="https://digitalmarketinginstitute.com/blog/graphic-design-introduction-1-design-fundamentals-hubspot" target="_blank">Introduction to Graphic Design: The 4 Design Fundamentals</a>
+                </li>
+
+                <li>
+                <a href="https://courses.minnalearn.com/en/courses/emerging-technologies/robotics-and-automation/introduction-to-robotics-and-automation/" target="_blank">Introduction to robotics and automation</a>
+                 </li>
+
+        </ol>
+        <h3>Scroll down to apply ⤵</h3>
+
+
+        <div class="apply">
+            <form action="">
+
+                <label for="fname" style="text-decoration: underline;">First Name</label>
+                <br>
+                <input type="text" id="fname" name="fname" placeholder="Type here...">
+
+                <br>
+
+                <label for="lname" style="text-decoration: underline;">Surname</label>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Type here...">
+
+                <br>
+
+                <label for="lvl" style="text-decoration: underline;">Grade Level</label>
+                <br>
+                <select>
+                    <option value="g7">Grade 7</option>
+                    <option value="g8">Grade 8</option>
+                    <option value="g7">Grade 9</option>
+                    <option value="g7">Grade 10</option>
+                </select>
+  
+                <br>
+
+                <label for="sec" style="text-decoration: underline;">Section</label>
+                <br>
+                <select>
+                    <option value="e">Emerald</option>
+                    <option value="r">Ruby</option>
+                    <option value="s">Sapphire</option>
+                    <option value="t">Topaz</option>
+                    <option value="j">Jade</option>
+                </select>
+                  
+                <br>
+
+                <label for="skills" style="text-decoration: underline;">What can you offer to the club?</label>
+                <br>
+                <input type="checkbox" id="skll1" name="skll">
+                <label for="skll1">Coding</label>
+
+                <br>
+                <input type="checkbox" id="skll2" name="skll">
+                <label for="skll2">Programming</label>
+
+                <br>
+                <input type="checkbox" id="skll3" name="skll">
+                <label for="skll3">Graphic Design</label>
+
+                <br>
+                <br>
+
+                <label for="i" style="text-decoration: underline;">Tell us why you want to join and what qualifies you to join our club</label>
+                <br>
+                <textarea id="i" placeholder="Type Here..." rows="4" cols="70"></textarea>
+
+                <br>
+
+                <button type="submit" id="button" name="button">Submit</button>
+                <input type="reset" id="clear" name="clear" value="Reset">
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+<footer id="foot">
+    © 2026 OBMC Robotics Club Application | Created by Chloe Erin Adlawan, Grade 9 Emerald
+</footer>
+
+<!--
+
+References:
+
+HTML Dropdown List with CSS and JavaScript - PHPpot. (n.d.). PHPpot. https://phppot.com/web/html-dropdown-list-with-css-and-javascript/
+
+AI was not utilized in this project.
+
+-->
+
+</html>
